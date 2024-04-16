@@ -10,7 +10,9 @@ This client calculates Pi using [Monte Carlo method](https://www.geeksforgeeks.o
 **How to run client app**
 
 ``cd client``
+
 ``go mod tidy``
+
 ``go mod run main.go``
 
 ## Server
@@ -21,5 +23,7 @@ This server is used to collect data from clients and to store it in a mongodb da
 **How to run server app**
 
 ``cd server``
+
 ``pip install -r requirements.txt``
+
 ``python app.py``
